@@ -1,4 +1,12 @@
-# README
+# CatBook
+
+
+Cat has many hobbies
++ name, weight, temperament, fluffy, breed
+Hobbies have many cats
++ name, description
+
+A Cat can learn a hobby
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
