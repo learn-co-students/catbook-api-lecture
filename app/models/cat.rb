@@ -1,5 +1,6 @@
 class Cat < ApplicationRecord
-  validates :name, :weight, presence: true
+  validates :name, presence: true
+  # , :weight, presence: true
   has_many :cat_hobbies
   has_many :hobbies, through: :cat_hobbies
 

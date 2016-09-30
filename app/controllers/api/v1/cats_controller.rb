@@ -44,7 +44,7 @@ module Api
       private
 
         def cat_params
-          params.require(:cat).permit(:name, :breed, :temperament, :weight)
+          params.require(:cat).permit(:name, :breed, :temperament, :weight, :hobby_ids => [])
         end
     end
   end
